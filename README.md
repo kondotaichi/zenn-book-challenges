@@ -7,3 +7,4 @@
 - [Lesson 4: align-items](/lesson4-align-items)
 - [Lesson 5: 練習問題2 スターター](/lesson5-oocss-game-starter)
 - [Lesson 5: 練習問題2 答え](/lesson5-oocss-game-answer)
+- [Lesson 5: メルカリ新着アイテム風カード カードコンポーネント](/lesson5-oocss-mercari-cards)
