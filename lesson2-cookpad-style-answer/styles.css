@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f3e8;
+}
+
+.wf-sawarabigothic {
+  font-family: "Sawarabi Gothic";
+}
+
+.wrapper {
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 50px auto;
+  width: 70%;
+  padding: 50px;
+  text-align: center;
+}
+
+.recipe-title {
+  padding: 20px 0;
+  color: #7d940a;
+  font-weight: 900;
+}
+
+.ingredients-table {
+  width: 70%;
+  margin: 50px auto;
+  border: 0.5px solid #e8e8e8;
+  border-spacing: 0;
+  text-align: left;
+}
+
+th {
+  border: 0.5px solid #e8e8e8;
+  padding: 10px;
+  color: #E0D7C1;
+  font-weight: 900;
+}
+
+td {
+  border: 0.5px solid #e8e8e8;
+  padding: 10px;
+}
+
+.details-title {
+  color: #E0D7C1;
+  font-weight: 900;
+}
+
+.details-table {
+  width: 95%;
+  margin: 50px auto;
+  border: 0.5px solid #e8e8e8;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.details-order {
+  width: 15%;
+}

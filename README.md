@@ -4,6 +4,10 @@
 - [Lesson 1: 練習問題 スターター](/lesson1-cookpad-starter)
 - [Lesson 1: 練習問題 答え](/lesson1-cookpad-answer)
 
+## CSSの基本
+- [Lesson 2: 練習問題 スターター](/lesson2-cookpad-style-starter)
+- [Lesson 2: 練習問題 答え](/lesson2-cookpad-style-answer)
+
 ## float
 - [Lesson 3: positionとz-index](/lesson3-z-index)
 - [Lesson 3: 練習問題2 答え](/lesson3-challenge2-answer)
