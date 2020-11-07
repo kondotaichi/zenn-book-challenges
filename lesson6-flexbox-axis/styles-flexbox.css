@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #778899;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+ul, li {
+  /* その他のスタイル */
+  list-style-type: none;
+  border-radius: 3px;
+  background-color: #fdeebc;
+  padding: 40px;
+
+  /* ❌ rowに一括でギャップを与えるスタイルがFlexboxには無いので、marginで対処するしかない */
+  margin: 10px 0;
+  width: 20%;
+}
+
+.container-body {
+  /* コンテナーに対する、Flexboxのスタイル */
+  display: flex;
+  /* ❌ ↓ flex-directionで1つの要素に対して、rowとcolumnの2方向の指定ができない */
+  /* flex-direction: row-reverse; ← ❌ 同時に書けない*/
+  flex-direction: column-reverse;
+  align-items: flex-end;
+
+  /* その他のスタイル */
+  background-color: #9fbef8;
+  margin: 0 auto;
+  width: 80%;
+}
