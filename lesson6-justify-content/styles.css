@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #778899;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+ul, li {
+  /* その他のスタイル */
+  list-style-type: none;
+  border-radius: 3px;
+  background-color: #fdeebc;
+  padding: 40px;
+  margin: 0 20px;
+}
+
+.container-body {
+  /* コンテナーに対する、CSSグリッドのスタイル */
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 1em;
+  justify-content: start;
+
+  /* その他のスタイル */
+  background-color: #9fbef8;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* アイテムに対する、CSSグリッドのスタイル */
+.item-1 {
+  grid-row: 2 / 2;
+  /* 👇 space-between, space-around, space-evenly の場合はコメントを外して反映を見る。それ以外はコメントアウトで無効化しておく */
+  /* grid-column: 1 / 2; */
+}
+
+.item-2 {
+  grid-row: 1 / 2;
+  /* 👇 space-between, space-around, space-evenly の場合はコメントを外して反映を見る。それ以外はコメントアウトで無効化しておく */
+  /* grid-column: 2 / 2; */
+}

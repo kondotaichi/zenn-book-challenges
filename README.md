@@ -30,3 +30,6 @@
 
 ## CSSグリッド
 - [Lesson 6: Flexboxの一次元レイアウトとCSSグリッドの二次元レイアウトによる、軸の操作比較](/lesson6-flexbox-axis)
+- [Lesson 6: grid-template-rowsと、grid-template-columnsのサンプル](/lesson6-grid-template-rows-columns)
+- [Lesson 6: grid-template-areasのサンプル](/lesson6-grid-template-areas)
+- [Lesson 6: justify-contentのサンプル](/lesson6-justify-content)

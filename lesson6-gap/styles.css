@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #778899;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+ul, li {
+  /* その他のスタイル */
+  list-style-type: none;
+  border-radius: 3px;
+  background-color: #fdeebc;
+  padding: 40px;
+  margin: 0 20px;
+}
+
+.container-body {
+  /* コンテナーに対する、CSSグリッドのスタイル */
+  display: grid;
+  /* ✅ columnとrowの2方向の軸を同時に操作している */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+  gap: 1em;
+
+  /* その他のスタイル */
+  background-color: #9fbef8;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* アイテムに対する、CSSグリッドのスタイル */
+/* ✅ columnとrowの2方向の軸を同時に操作している */
+.item-1 {
+  grid-area: box1;
+}
+
+.item-2 {
+  grid-area: box2;
+}
+
+.item-3 {
+  grid-area: box3;
+}
+
+.item-4 {
+  grid-area: box4;
+}
