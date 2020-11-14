@@ -1,4 +1,6 @@
-# マークアップ言語シリーズ テキスト内 ソースコード
+# Lilac(ライレック)教材: マークアップ言語シリーズ テキスト内 ソースコード
+
+![lilac-top](./lilac-top.png)
 
 ## HTML
 - [Lesson 1: クックパッド風レシピ練習問題 スターター](/lesson1-cookpad-starter)
@@ -35,3 +37,6 @@
 - [Lesson 6: gap, row-gap, column-gapのサンプル](/lesson6-gap)
 - [Lesson 6: justify-contentのサンプル](/lesson6-justify-content)
 - [Lesson 6: align-contentのサンプル](/lesson6-align-content)
+- [Lesson 6: orderのサンプル](/lesson6-css-grid-order)
+- [Lesson 6: pinterest風CSSグリッド書き換え練習問題 スターター](/lesson6-pinterest-starter)
+- [Lesson 6: pinterest風CSSグリッド書き換え練習問題 答え](/lesson6-pinterest-answer)
