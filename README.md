@@ -46,3 +46,4 @@
 # React教材
 
 - [React Hooks 練習問題1: State Hook、カウンターアプリ 答え](/state-hook-counter-app-answer)
+- [React Hooks: 副作用フック、カウンターアプリ HTMLドキュメントのタイトルをクリックイベントと連動させよう](/effect-hook-counter-app-answer)
