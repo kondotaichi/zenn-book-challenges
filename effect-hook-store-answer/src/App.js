@@ -12,7 +12,7 @@ function App() {
 
   const Wrapper = styled.main`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 100vh;
   `
 
   const ReviewWrapper = styled.div`
@@ -146,7 +146,16 @@ function App() {
 
   return (
     <div>
-      <Wrapper>
+      <Wrapper
+        css={css`
+          @media (min-width: 320px) {
+            grid-template-columns: 1fr;
+          }
+          @media (min-width: 1200px) {
+            grid-template-columns: 1fr 1fr;
+          }
+        `}
+      >
         <ReviewWrapper>
           <ItemReview src={itemImg} alt="itemLogo" />
           <ItemName css={css`
