@@ -127,9 +127,6 @@ function App() {
     justify-self: right;
   `
 
-  // output different results
-  // if buttun is clicked, run setCount(*default value is 1) and setPrice
-  // else show a component with default 0 package & ¥0
   const [count, setCount] = useState(0);
   const [price, setPrice] = useState(0);
   const [defaultPrice, setDefaultPrice] = useState(200);
@@ -142,7 +139,7 @@ function App() {
   useEffect(() => {
     const prices = document.getElementById('prices');
     prices.innerHTML = `¥${price}`;
-  });
+  }, [price]);
 
   return (
     <div>
